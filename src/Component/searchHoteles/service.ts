@@ -1,7 +1,8 @@
 import { IHoteles } from '../../interface'
+import { config } from '../../config'
 
 export async function getHoteles(text: string): Promise<IHoteles[] | undefined> {
-    let respose = text ? await fetch(`http://192.168.43.244:3000/filter/${text}`) : await fetch("http://192.168.43.244:3000/");
+    let respose = text ? await fetch(`${config.hostUrl}/filter/${text}`) : await fetch(`${config.hostUrl}/`);
     let data: Array<IHoteles> = []
     switch (respose.status) {
         case 200: {

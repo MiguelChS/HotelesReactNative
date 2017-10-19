@@ -32,7 +32,9 @@ class SeachHoteles extends React.Component<IProps, IState> {
                     throw new Error("Fail get list Hotel");
                 }
             })
-            .catch((err: Error) => Alert.alert(err.message))
+            .catch((err: Error) => {
+                Alert.alert(err.message)
+            })
     }
 
     render() {

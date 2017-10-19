@@ -49,8 +49,8 @@ function DetalleHotel({ hotel, back }: IProps) {
                 <MapView
                     style={styles.map}
                     region={{
-                        latitude: 37.78825,
-                        longitude: -122.4324,
+                        latitude: hotel.latitud,
+                        longitude: hotel.longitud,
                         latitudeDelta: 0.0922,
                         longitudeDelta: 0.0421
                     }}
