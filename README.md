@@ -1,13 +1,15 @@
 # HotelesReactNative
 
 # 1 install dependencies
-yarn install
+```bash 
+    yarn install
+```
 
 # 2 configuration Api
 editar el archivo de configuracion para editar el host del Api <br/>
 ./src/config.ts <br/>
 
-```
+```javascript
 export const config = {
     hostUrl: "http://....."
 }
@@ -15,6 +17,8 @@ export const config = {
 
 
 # 3 running app
-npm start <br/>
-npm run build <br/>
-npm run run:android <br/>
+```bash 
+npm start
+npm run build 
+npm run run:android 
+```
