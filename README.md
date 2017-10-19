@@ -5,12 +5,12 @@ yarn install
 
 # 2 configuration Api
 editar el archivo de configuracion para editar el host del Api <br/>
-./src/config.ts <br>
+./src/config.ts <br/>
 export const config = {
     hostUrl: "http://....."
 }
 
 # 3 running app
-npm start
-npm run build
-npm run run:android
+npm start <br/>
+npm run build <br/>
+npm run run:android <br/>
