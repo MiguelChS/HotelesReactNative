@@ -4,8 +4,8 @@
 yarn install
 
 # 2 configuration Api
-editar el archivo de configuracion para editar el host del Api
-./src/config.ts
+editar el archivo de configuracion para editar el host del Api <br/>
+./src/config.ts <br>
 export const config = {
     hostUrl: "http://....."
 }
